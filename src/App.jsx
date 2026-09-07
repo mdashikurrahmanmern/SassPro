@@ -1,8 +1,15 @@
 import React from 'react'
+import Navber from './Layouts/Navber'
+import Banner from './Layouts/Banner'
+
 
 const App = () => {
   return (
-     <div>App</div>
+     <>
+    <Navber/>
+    <Banner/>
+
+     </>
   )
 }
 
