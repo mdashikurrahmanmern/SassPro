@@ -12,7 +12,7 @@ export default {
          'offwhite': '#FFFFFF',
          'third': '#0D554C',
          'fourth': '#112F42',
-
+         'new': '#495E6C',
 
 
       },

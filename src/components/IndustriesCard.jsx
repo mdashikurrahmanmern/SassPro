@@ -17,3 +17,4 @@ export const IndustriesCard = ({src,title,text}) => {
     </div>
   )
 }
+export default IndustriesCard

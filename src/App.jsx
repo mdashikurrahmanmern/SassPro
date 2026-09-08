@@ -3,6 +3,8 @@ import Navber from './Layouts/Navber'
 import Banner from './Layouts/Banner'
 import About from './Layouts/About'
 import Industries from './Layouts/Industries'
+import Product from './Layouts/Product'
+import Makeit from './Layouts/Makeit'
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
     <Banner/>
     <About/>
     <Industries/>
+    <Product/>
+    <Makeit/>
 
      </>
   )
