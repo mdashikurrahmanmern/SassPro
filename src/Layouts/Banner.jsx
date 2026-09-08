@@ -19,7 +19,7 @@ const Banner = () => {
 
            <div className='w-[561px] relative mt-11'>
               <input className='w-full p-4 rounded-md' type="text" />
-              <Button className="absolute top-1/2 -translate-y-1/2 right-0 px-5 py-4 rounded-l-none" text="Request for Demo"/>
+              <Button className="absolute top-1/2 -translate-y-1/2 right-0 px-5 !py-4 rounded-l-none" text="Request for Demo"/>
            </div>
 
             </div>
