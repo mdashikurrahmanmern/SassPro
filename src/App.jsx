@@ -5,6 +5,10 @@ import About from './Layouts/About'
 import Industries from './Layouts/Industries'
 import Product from './Layouts/Product'
 import Makeit from './Layouts/Makeit'
+import WorkPart from './Layouts/WorkPart'
+import Pricing from './Layouts/Pricing'
+import Whatour from './Layouts/Whatour'
+import Stayup from './Layouts/Stayup'
 
 
 const App = () => {
@@ -16,6 +20,10 @@ const App = () => {
     <Industries/>
     <Product/>
     <Makeit/>
+    <WorkPart/>
+    <Pricing/>
+    <Whatour/>
+    <Stayup/>
 
      </>
   )
