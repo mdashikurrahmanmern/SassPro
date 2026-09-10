@@ -9,6 +9,7 @@ import WorkPart from './Layouts/WorkPart'
 import Pricing from './Layouts/Pricing'
 import Whatour from './Layouts/Whatour'
 import Stayup from './Layouts/Stayup'
+import Articles from './Layouts/Articles'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
     <Pricing/>
     <Whatour/>
     <Stayup/>
+    <Articles/>
 
      </>
   )
