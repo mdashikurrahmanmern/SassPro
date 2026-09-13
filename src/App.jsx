@@ -10,6 +10,7 @@ import Pricing from './Layouts/Pricing'
 import Whatour from './Layouts/Whatour'
 import Stayup from './Layouts/Stayup'
 import Articles from './Layouts/Articles'
+import Footer from './Layouts/Footer'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
     <Whatour/>
     <Stayup/>
     <Articles/>
+    <Footer/>
 
      </>
   )

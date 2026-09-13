@@ -8,7 +8,7 @@ import Button from '../components/Button'
 
 const Banner = () => {
   return (
-    <section className='bg-third pt-40 pb-[200px] relative'>
+    <section className='bg-third pt-5 pb-9 md:pt-40 pb-[200px] relative'>
         <Container>
           <Flex>
             <div className='w-1/2'>
@@ -21,8 +21,8 @@ const Banner = () => {
               <input className='w-full p-4 rounded-md' type="text" />
               <Button className="absolute top-1/2 -translate-y-1/2 right-0 px-5 !py-4 rounded-l-none" text="Request for Demo"/>
            </div>
-
             </div>
+
             <div className='w-1/2 absolute top-1/2 -translate-y-1/2  right-0'>
             <Image src={Nine} alt="banner image"/>
             </div>
