@@ -12,10 +12,10 @@ import Rex from '../assets/ind6.png'
 
 const Industries = () => {
   return (
-   <section className='pt-[113px] pb-[120px]'>
+   <section className='pt-[65px] md:pt-[113px] pb-[70px] md:pb-[120px]'>
         <Container>
-                <Heading className='text-center pb-14' text="Industries in focus"/>
-                <Flex className='justify-between flex-wrap gap-7'>
+                <Heading className='pr-[830px] md:pr-0 text-center pb-14' text="Industries in focus"/>
+                <Flex className='flex-col md:flex-row items-center md:items-start pr-[821px] md:pr-0 justify-between flex-wrap gap-7 '>
                     <IndustriesCard src={Dex} title="FinTech" text="Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget."/>
                     <IndustriesCard src={Nex} title="Telecom" text="Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget."/>
                     <IndustriesCard src={Fex} title="Retail" text="Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget."/>

@@ -12,10 +12,10 @@ import Heading from '../components/Heading'
 
 const Articles = () => {
   return (
-    <section className='pt-[110px] pb-[120px] bg-[#F3F3F3]'>
+    <section className='pt-10 md:pt-[110px] pb-14 md:pb-[120px] bg-[#F3F3F3]'>
           <Container>
-                    <Heading className='text-center pb-14' text="Recent News & Articles"/>
-                 <Flex className='justify-between'>
+                    <Heading className='pr-[830px] md:pr-0  text-center pb-14' text="Recent News & Articles"/>
+                 <Flex className='flex-col md:flex-row pl-3 md:pl-0 justify-between'>
                      <ArticlesCard date="24/ 08/2021" crs={Ftf} src={Pds}  items="Carter Rosser" title="Where Should I Buy Next?" text="From romantic getaways to adventurous hikes, find your next..."/>
                      <ArticlesCard date="24/ 08/2021" crs={Ftf} src={Card} items="Carter Rosser"  title="Malesuada Fermentum Tortor" text="From romantic getaways to adventurous hikes, find your next..."/>
                      <ArticlesCard date="24/ 08/2021" crs={Ftf} src={Sds}  items="Carter Rosser" title="Magna Malesuada" text="From romantic getaways to adventurous hikes, find your next..."/>

@@ -5,7 +5,7 @@ import { BiSolidQuoteAltRight } from 'react-icons/bi'
 
 const OurCard = ({text,src,item}) => {
   return (
-   <div className='w-[315px] bg-offwhite rounded-lg shadow-2xl relative'>
+   <div className='mt-11 md:mt-0 w-[315px] bg-offwhite rounded-lg shadow-2xl relative'>
    <div className='w-[70px] h-[70px] bg-offwhite rounded-full absolute top-[-30px] right-[125px]'><BiSolidQuoteAltRight className='m-5 text-4xl text-secondary' /></div>
       <div className='px-[30px] pb-[30px] pt-12'>
      <p className='text-base text-[#495E6C] font-roboto font-normal leading-[27px] pt-5 pb-6'>{text}</p>

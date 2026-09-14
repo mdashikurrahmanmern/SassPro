@@ -12,17 +12,17 @@ const Footer = () => {
     <>
     <section className='bg-fourth pt-[97px] pb-[77px] border-b border-[#ffffff14]'>
          <Container>
-               <Flex>
-                   <div className='w-4/12'>
-                   <Image src={Foot}/>
-                   <SubHeading className='pt-7 pb-9 w-[362px]' text="Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea."/>
-                   <ul className='flex gap-x-6'> 
+               <Flex className='flex-col md:flex-row'>
+                   <div className='md:w-4/12'>
+                   <Image className='pl-[99px] md:pl-0' src={Foot}/>
+                   <SubHeading className='pr-[830px] md:pr-0 text-center md:text-start pt-7 pb-9 md:w-[362px]' text="Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea."/>
+                   <ul className='pr-[830px] md:pr-0 justify-center md:justify-start mb-7 md:mb-0 flex gap-x-6'> 
                       <li><FaFacebookF className='text-white' /></li>
                         <li><FaTwitter className='text-white' /></li>
                       <li><FaInstagram className='text-white' /></li>
                    </ul>
                    </div>
-                   <div className='w-2/12'>
+                   <div className='pr-[830px] md:pr-0 text-center md:text-start md:w-2/12'>
                      <FooterList text="Company"/>
                     <ul className='flex flex-col gap-y-1 mt-5 cursor-pointer'>
                          <SubHeading text="About us"/>
@@ -30,7 +30,7 @@ const Footer = () => {
                          <SubHeading text="Blog"/>
                     </ul>
                    </div>
-                   <div className='w-2/12'>
+                   <div className='pr-[830px] md:pr-0 text-center md:text-start py-9 md:py-0 md:w-2/12'>
                    <FooterList text="More Links"/>
                    <ul className='flex flex-col gap-y-1 mt-5 cursor-pointer'>
                          <SubHeading text="Blog Details"/>
@@ -38,7 +38,7 @@ const Footer = () => {
                          <SubHeading text="Contact"/>
                     </ul>
                    </div>
-                   <div className='w-4/12'>
+                   <div className='pr-[830px] md:pr-0 text-center md:text-start md:w-4/12'>
                    <FooterList text="Contact Details"/>
                    <ul className='flex flex-col gap-y-1 mt-5 cursor-pointer'>
                          <SubHeading text="Amsterdam Netherlands"/>

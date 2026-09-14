@@ -6,8 +6,8 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 
 const ArticlesCard = ({src,title,text,crs,items,date}) => {
   return (
-    <div className='w-[366px] bg-offwhite raunded-full shadow-2xl'>
-       <div className='w-[346px] h-[189px] mx-auto mt-2.5'>
+    <div className='mt-8 md:mt-0 w-[330px] md:w-[366px] bg-offwhite raunded-full shadow-2xl'>
+       <div className='w-[320px] md:w-[346px] h-[175px] md:h-[189px] mx-auto mt-2.5'>
             <Image src={src}/>
        </div>
       <div className='p-[30px]'>

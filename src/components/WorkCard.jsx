@@ -4,8 +4,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const WorkCard = ({src,title,text}) => {
   return (
-   <div className='w-[362px] bg-offwhite rounded-lg shadow-2xl'>
-       <div className='w-[65px] h-[66px] mt-6 ml-5'>
+   <div className='w-[325px] md:w-[362px] bg-offwhite rounded-lg shadow-2xl'>
+       <div className='w-[55px] md:w-[65px] h-[56px] md:h-[66px] mt-6 ml-5'>
             <Image src={src}/>
        </div>
       <div className='p-[30px]'>

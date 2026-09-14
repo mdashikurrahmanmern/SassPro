@@ -4,8 +4,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export const IndustriesCard = ({src,title,text}) => {
   return (
-    <div className='w-[366px] bg-offwhite raunded-lg shadow-2xl'>
-       <div className='w-[346px] h-[220px] mx-auto mt-2.5'>
+    <div className='w-[330px] md:w-[366px] bg-offwhite raunded-lg shadow-2xl'>
+       <div className='w-[320px] md:w-[346px] h-[200px] md:h-[220px] mx-auto mt-2.5'>
             <Image src={src}/>
        </div>
       <div className='p-[30px]'>
